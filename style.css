@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 @media (max-width: 1440px) { 
+    body {
+        background-color: hsl(47, 88%, 63%);
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        font-family: "Figtree", sans-serif;
+        padding: 5% 5% 5% 5%;
+        margin: 0% 0% 0% 30%; 
+    }
+
     .container {
-        width: 28%;
+        width: 50%;
         height: auto;
     }
     .profile {
@@ -26,14 +36,6 @@
     .profile {
         align-items: flex-start;
     }
-}
-
-body    {
-    background-color: hsl(47, 88%, 63%);
-    display: flex;
-    justify-content: center; 
-    font-family: "Figtree", sans-serif;
-    margin: 5% 0% 0% 0%; 
 }
 
 .container {
@@ -99,7 +101,7 @@ p {
     font-size: 16px;
     color: hsl(0, 0%, 42%);
     font-weight: 500;
-    margin: 0% 0% 9% 0%;
+    margin: 0% 0% 5% 0%;
 }
 
 h1 {
